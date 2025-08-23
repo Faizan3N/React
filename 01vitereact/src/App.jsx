@@ -8,7 +8,7 @@ function App() {
     <>
       <Chai />
       <h1>React with Vite</h1>
-      <p>Testing</p>
+      <p>Testing the jsx component</p>
     </>
   )
 }
