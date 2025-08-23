@@ -1,12 +1,16 @@
 
 
-
+import Chai from './chai'
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <h1>React with Vite</h1>
-  );
+    <>
+      <Chai />
+      <h1>React with Vite</h1>
+      <p>Testing</p>
+    </>
+  )
 }
 
 export default App;
