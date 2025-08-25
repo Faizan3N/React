@@ -12,6 +12,9 @@ function App() {
     setCount(count + 1);
   };
   const decreaseValue = () => {
+    if (count === 0) {
+      return;
+    }
     setCount(count - 1);
   };
   return (
